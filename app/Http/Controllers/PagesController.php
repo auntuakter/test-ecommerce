@@ -8,10 +8,10 @@ class PagesController extends Controller
 {
     public function contact ()
     {
-        return view ('contact');
+        return view ('pages.contact');
     }
     public function index ()
     {
-        return view ('index');
+        return view ('pages.index');
     }
 }
